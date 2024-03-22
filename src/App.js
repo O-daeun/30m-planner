@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import DayToThree from "./pages/DayToThree";
 import { getDatas } from "./api/api";
+import DayListToThree from "./pages/DayListToThree";
 
 export default function App() {
   const [datas, setDatas] = useState([]);
@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div>
-      <DayToThree datas={datas} />
+      <DayListToThree datas={datas} />
     </div>
   );
 }

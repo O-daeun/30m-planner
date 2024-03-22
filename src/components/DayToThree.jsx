@@ -1,10 +1,8 @@
 import React from "react";
 
-export default function DayToThree({ datas }) {
-  const data = datas[0];
+export default function DayToThree({ data }) {
   return (
     <div>
-      <h2>하루 3등분 Planning</h2>
       <h3>{data && data.date}</h3>
       <table>
         <thead>
